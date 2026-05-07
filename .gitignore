@@ -1,0 +1,92 @@
+# Ядро 
+/bitrix/
+!/bitrix/.settings.php
+!/bitrix/php_interface/
+
+# Кэш 
+/bitrix/cache/
+/bitrix/stack_cache/
+/bitrix/html_cache/
+/bitrix/tmp/
+/bitrix/backups/
+/bitrix/managed_cache/
+/bitrix/html_pages/
+/bitrix/blocks/
+/bitrix/resize_cache/
+
+# Логи
+/bitrix/error.log
+/bitrix/php_error.log
+
+# upload & local
+/upload/
+/upload/.htaccess
+/.htaccess
+/local/cache/
+/local/compiled/
+
+# Конфигурация БД
+/bitrix/php_interface/dbconn.php
+/bitrix/.settings.php
+
+# Личные данные
+/personal/
+/private/
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+*~
+.DS_Store
+._.DS_Store
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+*.swq
+
+# BACKUPS & archives
+*.BAK
+*.bak
+*.backup
+/*_files
+/*_files.zip
+/*_files.tar.gz
+/.htaccess_back*
+
+*.zip
+*.rar
+*.tar.gz
+*.7z
+*.gz
+*.bz
+*.bz2
+*.tar
+
+# COMPOSER & NPM
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Бд
+/*.sql
+*.sql
+
+#SEO и SITEMAP
+/sitemap.xml
+/sitemap_iblock*
+/sitemap_files*
+/robots.txt
