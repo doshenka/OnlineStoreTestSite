@@ -90,3 +90,9 @@ package-lock.json
 /sitemap_iblock*
 /sitemap_files*
 /robots.txt
+
+# System & user files
+.bash_history
+.bash_profile
+.bashrc
+.zsh_history
